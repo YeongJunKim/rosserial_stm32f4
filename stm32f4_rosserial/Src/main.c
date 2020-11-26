@@ -61,7 +61,12 @@ static void MX_TIM2_Init(void);
 static void MX_USART2_UART_Init(void);
 static void MX_USART1_UART_Init(void);
 /* USER CODE BEGIN PFP */
-
+int __io_putchar(int ch)
+{
+	//__usart2.write((uint8_t*)ch, 1);
+	__printf__io__putchar(ch);
+	return ch;
+}
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
