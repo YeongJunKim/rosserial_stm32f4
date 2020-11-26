@@ -33,3 +33,8 @@
 
 .metadata/
 
+**/Debug/
+**/.settings/
+
+
+!.gitignore
