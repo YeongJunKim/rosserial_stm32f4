@@ -43,11 +43,10 @@ Vector3.h:29:17:virtual int geometry_msgs::Vector3::serialize(unsigned char*) co
 Vector3.h:38:17:virtual int geometry_msgs::Vector3::deserialize(unsigned char*)	24	static
 Vector3.h:47:18:virtual const char* geometry_msgs::Vector3::getType()	16	static
 Vector3.h:48:18:virtual const char* geometry_msgs::Vector3::getMD5()	16	static
-stm32_ros.cpp:49:5:int __printf__io__putchar(int)	24	static
-stm32_ros.cpp:61:6:void ros_init()	8	static
-stm32_ros.cpp:72:6:void ros_run()	8	static
-stm32_ros.cpp:97:6:void angle_cb(const geometry_msgs::Vector3&)	24	static
-stm32_ros.cpp:105:6:void ax12_SetRegister(uint8_t, uint8_t, uint16_t)	16	static
+stm32_ros.cpp:33:5:int __printf__io__putchar(int)	24	static
+stm32_ros.cpp:41:6:void ros_init()	8	static
+stm32_ros.cpp:50:6:void ros_run()	8	static
+stm32_ros.cpp:62:6:void angle_cb(const geometry_msgs::Vector3&)	32	static
 msg.h:129:15:static void ros::Msg::varToArr(A, V) [with A = unsigned char*; V = long unsigned int]	24	static
 msg.h:137:15:static void ros::Msg::arrToVar(V&, A) [with V = long unsigned int; A = unsigned char*]	24	static
 node_handle.h:50:7:constexpr ros::NodeHandleBase_::NodeHandleBase_()	16	static
@@ -65,10 +64,10 @@ node_handle.h:511:15:int ros::NodeHandle_<Hardware, MAX_SUBSCRIBERS, MAX_PUBLISH
 node_handle.h:402:8:void ros::NodeHandle_<Hardware, MAX_SUBSCRIBERS, MAX_PUBLISHERS, INPUT_SIZE, OUTPUT_SIZE>::setNow(ros::Time&) [with Hardware = STM32Hardware; int MAX_SUBSCRIBERS = 25; int MAX_PUBLISHERS = 25; int INPUT_SIZE = 512; int OUTPUT_SIZE = 512]	24	static
 node_handle.h:573:8:void ros::NodeHandle_<Hardware, MAX_SUBSCRIBERS, MAX_PUBLISHERS, INPUT_SIZE, OUTPUT_SIZE>::logerror(const char*) [with Hardware = STM32Hardware; int MAX_SUBSCRIBERS = 25; int MAX_PUBLISHERS = 25; int INPUT_SIZE = 512; int OUTPUT_SIZE = 512]	16	static
 node_handle.h:552:8:void ros::NodeHandle_<Hardware, MAX_SUBSCRIBERS, MAX_PUBLISHERS, INPUT_SIZE, OUTPUT_SIZE>::log(char, const char*) [with Hardware = STM32Hardware; int MAX_SUBSCRIBERS = 25; int MAX_PUBLISHERS = 25; int INPUT_SIZE = 512; int OUTPUT_SIZE = 512]	40	static
-stm32_ros.cpp:118:1:void __static_initialization_and_destruction_0(int, int)	16	static
+stm32_ros.cpp:67:1:void __static_initialization_and_destruction_0(int, int)	16	static
 subscriber.h:114:16:void ros::Subscriber<MsgT, void>::callback(unsigned char*) [with MsgT = geometry_msgs::Vector3]	16	static
 subscriber.h:128:15:int ros::Subscriber<MsgT, void>::getEndpointType() [with MsgT = geometry_msgs::Vector3]	16	static
 subscriber.h:120:24:const char* ros::Subscriber<MsgT, void>::getMsgType() [with MsgT = geometry_msgs::Vector3]	16	static
 subscriber.h:124:24:const char* ros::Subscriber<MsgT, void>::getMsgMD5() [with MsgT = geometry_msgs::Vector3]	16	static
 node_handle.h:363:16:bool ros::NodeHandle_<Hardware, MAX_SUBSCRIBERS, MAX_PUBLISHERS, INPUT_SIZE, OUTPUT_SIZE>::connected() [with Hardware = STM32Hardware; int MAX_SUBSCRIBERS = 25; int MAX_PUBLISHERS = 25; int INPUT_SIZE = 512; int OUTPUT_SIZE = 512]	16	static
-stm32_ros.cpp:118:1:cpp)	8	static
+stm32_ros.cpp:67:1:cpp)	8	static
